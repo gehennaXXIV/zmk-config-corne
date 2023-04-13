@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC              &trans    &kp LA(UP_ARROW)               &trans     &trans         &trans        &kp N1      &kp N2      &kp N3      &kp N4      &kp N5  &trans
- &trans  &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(RIGHT_ARROW)     &trans    &kp PAGE_UP        &kp N6      &kp N7      &kp N8      &kp N9      &kp N0  &trans
- &trans              &trans              &trans            &kp LC(C)  &kp LC(V)  &kp PAGE_DOWN    &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)  &trans
-                                                              &trans     &trans         &trans        &trans      &trans      &trans
+&kp ESC        &trans    &kp LC(UP)         &trans     &trans         &trans        &kp N1      &kp N2      &kp N3      &kp N4      &kp N5  &trans
+ &trans  &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(RIGHT)     &trans    &kp PAGE_UP        &kp N6      &kp N7      &kp N8      &kp N9      &kp N0  &trans
+ &trans        &trans        &trans      &kp LC(C)  &kp LC(V)  &kp PAGE_DOWN    &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)  &trans
+                                            &trans     &trans         &trans        &trans      &trans      &trans
             >;
         };
 
