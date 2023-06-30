@@ -5,8 +5,8 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
@@ -37,7 +37,7 @@
             bindings = <
          &kp ESC  &mt LC(N1) N1  &mt LC(N2) N2  &mt LC(N3) NUMBER_3  &mt LC(N4) NUMBER_4            &mt LC(N5) NUMBER_5               &trans      &mt LC(UP) UP               &trans        &kp N7  &kp NUMBER_8  &kp NUMBER_9
     &kp CAPSLOCK         &kp N6         &kp N7         &kp NUMBER_8         &kp NUMBER_9                   &kp NUMBER_0    &mt LC(LEFT) LEFT  &mt LC(DOWN) DOWN  &mt LC(RIGHT) RIGHT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
-&kp LEFT_CONTROL         &trans         &trans               &trans               &trans  &mt LA(PRINTSCREEN) LS(LG(S))               &trans             &trans               &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&kp LEFT_CONTROL       &kp HOME      &kp PG_UP            &kp PG_DN               &trans  &mt LA(PRINTSCREEN) LS(LG(S))               &trans             &trans               &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
                                                   &kp LS(RG(RIGHT))               &trans                         &trans           &kp DELETE             &trans               &trans
             >;
         };
